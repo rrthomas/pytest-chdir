@@ -1,7 +1,7 @@
 # pytest-chdir
 A pytest fixture for changing current working directory.
 
-[![Actions Status](https://github.com/ar90n/pytest-chdir/workflows/Python%20package/badge.svg)](https://github.com/ar90n/pytest-chdir/actions)
+[![Actions Status](https://github.com/rrthomas/pytest-chdir/workflows/Python%20package/badge.svg)](https://github.com/rrthomas/pytest-chdir/actions)
 [![PyPI](https://img.shields.io/pypi/v/pytest-chdir.svg)](https://pypi.python.org/pypi/pytest-chdir)
 [![PythonVersions](https://img.shields.io/pypi/pyversions/pytest-chdir.svg)](https://pypi.python.org/pypi/pytest-chdir)
 
