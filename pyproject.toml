@@ -1,8 +1,9 @@
-[tool.poetry]
+[project]
 name = "pytest-chdir"
 version = "0.2.0"
 description = "A pytest fixture for changing current working directory"
-authors = ["Reuben Thomas <rrt@sc3d.org>"]
+authors = [{name = "Reuben Thomas", email = "rrt@sc3d.org"}]
+readme = "README.md"
 license = "MIT"
 
 [tool.poetry.dependencies]
