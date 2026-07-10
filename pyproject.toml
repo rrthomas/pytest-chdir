@@ -1,6 +1,6 @@
 [project]
 name = "pytest-chdir"
-version = "0.2.2"
+version = "0.2.3"
 description = "A pytest fixture for changing current working directory"
 authors = [{name = "Reuben Thomas", email = "rrt@sc3d.org"}]
 readme = "README.md"
