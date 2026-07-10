@@ -4,6 +4,7 @@ version = "0.2.2"
 description = "A pytest fixture for changing current working directory"
 authors = [{name = "Reuben Thomas", email = "rrt@sc3d.org"}]
 readme = "README.md"
+urls = {Homepage = "https://github.com/rrthomas/pytest-chdir"}
 license = "MIT"
 
 [tool.poetry.dependencies]
