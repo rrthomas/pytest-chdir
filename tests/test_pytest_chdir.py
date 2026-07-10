@@ -1,5 +1,3 @@
-import os
-import pytest
 from pathlib import Path
 from pytest_chdir import define_chdir_fixture
 

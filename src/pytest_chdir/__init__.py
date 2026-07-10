@@ -6,3 +6,5 @@ try:
     __version__ = importlib.metadata.version("pytest-chdir")
 except importlib.metadata.PackageNotFoundError:
     __version__ = "develop"
+
+__all__ = ["define_chdir_fixture"]
