@@ -33,7 +33,7 @@ def define_chdir_fixture(name: str, dstdir: Path, module_name: str) -> None:
 
 
 @pytest.fixture
-def chtmpdir(request, tmpdir: Path):
+def chtmpdir(tmpdir: Path):
     yield from _chdir(tmpdir)
 
 
