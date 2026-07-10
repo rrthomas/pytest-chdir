@@ -1,6 +1,6 @@
-from pathlib import Path
-import os
 import sys
+from contextlib import chdir
+from pathlib import Path
 
 import pytest
 
@@ -16,12 +16,8 @@ def _get_datadir_path(request, fixture_name: str):
 
 
 def _chdir(dstdir: Path):
-    lwd = os.getcwd()
-    os.chdir(dstdir)
-    try:
+    with chdir(dstdir):
         yield dstdir
-    finally:
-        os.chdir(lwd)
 
 
 def define_chdir_fixture(name: str, dstdir: Path, module_name: str) -> None:
